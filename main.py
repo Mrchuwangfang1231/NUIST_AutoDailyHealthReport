@@ -14,7 +14,7 @@ formDatainp=input("formData2")
 s = requests.Session()
 url = 'http://e-office2.nuist.edu.cn/infoplus/form/XNYQSB/start'
 # cookies = dict(INGRESSCOOKIE='1612425402.576.120.251848', JSESSIONID='1C75229FB4005E181C8DAAF8857AB3FA.TomcatC',iPlanetDirectoryPro='Xdu0h0zdQlig2dtROU3fee7rhZx0lYJh')
-cookies = dict(INGRESSCOOKIE='1612582906.278.2210.770261'; JSESSIONID='1C364619F41C8D6A58B2AE534EB5CF5B.TomcatC'; iPlanetDirectoryPro='dtSG7P14FyxuKWFpkc4HWa5BVypxk0nj')
+cookies = dict(INGRESSCOOKIE='1612582906.278.2210.770261', JSESSIONID='1C364619F41C8D6A58B2AE534EB5CF5B.TomcatC', iPlanetDirectoryPro='dtSG7P14FyxuKWFpkc4HWa5BVypxk0nj')
 cookies = dict(iPlanetDirectoryPro=iPDP)
 r1 = s.get(url,cookies=cookies)
 cookieNew = r1.cookies
